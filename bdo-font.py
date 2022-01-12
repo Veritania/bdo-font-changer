@@ -39,6 +39,7 @@ font_label.place(x=40, y=60)
 fonts = list(font.families())
 
 # TODO: Filter fonts to only get .ttf (TrueType Fonts)
+# TODO: Fetch fonts manually via C:\Windows\Fonts and check if they're .ttf
 font_collection = StringVar(root)
 font_collection.set(fonts)
 
