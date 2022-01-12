@@ -17,7 +17,6 @@ def browseFiles():
 root = Tk()
 root.geometry('500x250')
 root.title("BDO Font Patcher")
-#root.config(background = "black")
 
 
 # Game Directory
@@ -51,7 +50,7 @@ for item in range(0, int(font_dropdown['menu'].index('end'))):
         item, font=font.Font(family=font.families()[item]))
 
 
-# Patch Font Button
+# Patch Font Button (Temporarily just exits application)
 patch_font_button = Button(root, text='Patch font', command=root.destroy)
 patch_font_button.place(x=40, y=130)
 root.mainloop()
